@@ -107,7 +107,7 @@ def get_wmt_enfr_dev_set(directory):
 
 #----------------------For English--------------------------------------
 
-"""
+
 
 def basic_tokenizer(sentence):
   #Very basic tokenizer: split the sentence into a list of tokens.
@@ -132,6 +132,8 @@ def basic_tokenizer(sentence):
     words.extend(_WORD_SPLIT.split(space_separated_fragment))
   print (words)
   return [w for w in words if w]
+
+"""
 
 def create_vocabulary(vocabulary_path, data_path, max_vocabulary_size,
                       tokenizer=None, normalize_digits=True):
